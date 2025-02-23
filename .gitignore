@@ -26,7 +26,6 @@ Thumbs.db
 *.swp
 
 # Go 관련
-server/
 *.exe
 *.test
 *.out
