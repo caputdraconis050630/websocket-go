@@ -1,0 +1,43 @@
+# Node.js 관련 (React 웹앱)
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+client/.cache/
+client/coverage/
+
+# TypeScript 관련
+client/*.tsbuildinfo
+
+# 로그 파일
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS/IDE 관련 파일
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Go 관련
+server/
+*.exe
+*.test
+*.out
+
+# Go 모듈 캐시 및 빌드 아티팩트
+/go/
+*.modcache/
+*.bin/
+/bin/
+/pkg/
+
+# 루트 디렉토리의 Go 관련 파일
+go.sum.lock
+
